@@ -1,0 +1,10 @@
+1. sudo apt-get install numlockx
+2. test:
+	numlockx on/off
+3. cd ~/.config
+4. nano numlock.sh
+	#! /bin/bash
+	numlockx on
+5. chmod +x numlock.sh
+6. sudo crontab -e
+7. @reboot cd /home/pi/.config && ./numlock.sh
