@@ -1,0 +1,10 @@
+Install gr-cc111 in Raspbian Jessie with GNU Radio
+
+download https://github.com/funoverip/gr-cc1111/archive/master.zip
+unzip files
+cd src/gr-cc1111
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX=/usr ../
+make 
+sudo make install
